@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Xin lỗi em...</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #e91e63;
+    }
+    .heart {
+      font-size: 60px;
+      color: red;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+    .message {
+      max-width: 600px;
+      margin: auto;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <h1>Xin lỗi em!</h1>
+  <div class="message">
+    <p>Anh biết thời gian qua anh đã làm em buồn. Anh thật sự hối hận và nhớ em rất nhiều.</p>
+    <p>Mỗi ngày không có em đều rất trống vắng...</p>
+    <p>Anh hy vọng em có thể tha thứ cho anh. Anh sẽ cố gắng hơn để không làm em buồn thêm nữa.</p>
+    <p><strong>Yêu em nhiều lắm ❤️</strong></p>
+  </div>
+</body>
+</html>
